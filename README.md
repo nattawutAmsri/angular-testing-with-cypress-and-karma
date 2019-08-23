@@ -1,6 +1,8 @@
-# TestTutorial
+# Test with Karma and Cypress Tutorial
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.3.
+
+The purpose of this project are show how to develop simple application with unit test and automate testing by using Angular framework.
 
 ## Development server
 
@@ -25,3 +27,12 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Running automate tests
+
+Run `npm run test:automate` to excute automate tests via [Cypress](https://www.cypress.io/).
+
+
+## Special thanks
+
+- The style on this project copy from Agustin's Pens [Reference](https://codepen.io/Agustin585/pen/voGywq)
