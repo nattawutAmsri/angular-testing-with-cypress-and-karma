@@ -42,16 +42,6 @@ describe('AppComponent', () => {
     expect(result).toBe('11');
   });
 
-  it('Test padding function with 1', () => {
-    const result = appComponent.padding(1);
-    expect(result).toBe('01');
-  });
-
-  it('Test padding function with 11', () => {
-    const result = appComponent.padding(11);
-    expect(result).toBe('11');
-  });
-
   it('Test updateDayDisplay function', () => {
     const result = appComponent.updateDayDisplay(4);
     expect(result).toBeTruthy();
